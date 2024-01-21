@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Кафе Галерея</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f4f4f4;
+        }
+
+        .gallery {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            max-width: 800px;
+            margin: 20px auto;
+        }
+
+        .gallery-item {
+            margin: 10px;
+        }
+
+        .gallery-item img {
+            width: 200px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Кафе Галерея</h1>
+
+    <div class="gallery">
+        <div class="gallery-item">
+            <a href="file:///D:/coffee_vienna.html">
+                <img src="https://static.insales-cdn.com/images/articles/1/5013/1471381/16250378047_1_.jpg" alt="Кофе по-венски">
+            </a>
+        </div>
+        <div class="gallery-item">
+            <a href="file:///D:/latte.html">
+                <img src="https://www.korzyna.com/img/600/600/resize/2/3/23dru.jpg" alt="Латте">
+            </a>
+        </div>
+        <div class="gallery-item">
+            <a href="file:///D:/cappuccino.html">
+                <img src="https://www.prostolife.com.ua/wp-content/uploads/2023/07/capuchino-1-1024x682.jpg" alt="Капучино">
+            </a>
+        </div>
+        <div class="gallery-item">
+            <a href="file:///D:/espresso.html">
+                <img src="https://calorizator.ru/sites/default/files/imagecache/product_512/product/coffee-21.jpg" alt="Эспрессо">
+            </a>
+        </div>
+        <div class="gallery-item">
+            <a href="file:///D:/mocha.html">
+                <img src="https://defacto.coffee/wp-content/uploads/2017/11/mocco.jpg" alt="Мокко">
+            </a>
+        </div>
+    </div>
+
+</body>
+</html>
